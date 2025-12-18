@@ -30,6 +30,3 @@ code for CS771, 2025 Fall
   --batch-size 4
   --max-length 12288 
   --temperature 0.7
-
-## Notes
-  The script has been tested for a 8B backbone with a single 80GB-RAM-GPU. Otherwise, try to use a smaller backbone or set to a smaller batch_size.
