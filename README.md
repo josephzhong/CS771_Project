@@ -1,5 +1,16 @@
-# CS771_Project
-code for CS771, 2025 Fall
+# VLM-reward-hacking-detection
+This project aims to train soft tokens and a backbone VLM to detect reward hacking in target VLMs.
+
+Highlights:
+- Data synthesized from carefully designed pipeline of VLM reinforcement learning based finetuning.
+- Solved a few challenging issues brought by the training of soft tokens + LoRA on a larger VLM backbone.
+- Experiments done on multiple VLM series under various parameter sizes including Qwen3-VL and LLaVA-OneVision-1.5.
+- The following figures are from the training of a Qwen3-VL-8B backbone.
+
+  <p align="center">
+    <img src="pics/training_loss.png" alt="Training loss" width="49%" />
+    <img src="pics/mmr2t_roc.png" alt="MMR2T ROC" width="49%" />
+  </p>
 
 - **Setup:**
   1. pip install -r requirements.txt
