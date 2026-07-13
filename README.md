@@ -1,5 +1,5 @@
 # VLM-soft-tokens-based-reward-hacking-detection
-This project aims to train soft tokens and a backbone VLM to detect reward hacking in target VLMs. But this method may be applied to any multi-modal based retrieval scenarios under flexible computation budget.
+This project aims to train soft tokens and a backbone VLM to detect reward hacking in target VLMs. But **this method may be applied to any multi-modal based retrieval scenarios under flexible computation budget**.
 
 Highlights:
 - Data synthesized from carefully designed pipeline of VLM reinforcement learning based finetuning.
